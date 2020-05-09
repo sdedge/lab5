@@ -1,0 +1,69 @@
+body{
+	background: #1abc9c;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.header{
+	height: 120px;
+	position: relative;
+	margin-bottom: 2%;
+}
+
+.content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header img {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 318px;
+	height: 100%;
+	float: left;
+}
+
+.header h3{
+	position: absolute;
+	right: 0%;
+	top: 50%;
+	font-size: 26px;
+	margin-top: -13px;
+}
+
+.header a{
+	color: #ffffff;
+}
+
+h1{
+	text-align: center;
+}
+
+.title_block{
+	align: right;
+}
+
+.title_block input{
+	width: 35%;
+}
+
+
+.text_block textarea{
+	width: 100%;
+	resize: none;
+	height: 450px;
+}
+.save_button{
+	text-align: center;
+}
+
+.save_button input{
+	width: 40%;
+	height: 45px;
+}
+
+.error_string{
+	text-align: center;
+}
